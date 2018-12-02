@@ -1,13 +1,79 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="utf-8">	
+	<meta charset="utf-8">
+
+	<title>MI Página</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
 </head>
 
-<body>
-	<header>
+<body class="content content-wrap">
+	<div class="navbar">
+		
+		<nav class="navbar navbar-default">
+			<h1>Hola este es mi navbar</h1>
+			<div class="container-fluid">
+    			<div class="navbar-header">
+      			<a class="navbar-brand" href="#">WebSiteName</a>
+    			</div>
+
+				<ul class="nav navbar-nav">
+					<li><a href="#" title="">HOME</a></li>
+					<li><a href="#" title="">GALERYA</a></li>
+
+					<li><a href="#" title="">CATEGORIA</a></li>
+
+					<li><a href="#" title="">PAGINA</a></li>
+
+					<li><a href="#" title="">ABOUT</a></li>
+
+				</ul>
+
+					
+ 			</div>	
+		</nav>
+
+	</div>
+	<header class="header">
 		<h1>Encabezado de la página</h1>
-	
+		<div class="btn-group">
+			<button class="btn btn-primary btn-md" type="button">Boton primary</button>
+			<BUTTON class="btn btn-success btn-sm">Boton secundario</BUTTON>
+			<button class="btn btn-danger btn-xs" type="button">Boton de peligro</button>
+			<button class="btn btn-info btn-xs" type="button">Boton de peligro</button>
+			<button class="btn btn-link btn-xs" type="button">Boton de peligro</button>
+
+			<button class="btn btn-warning btn-lg" type="button">Boton de Advertencia</button>
+		</div>
+		
+		<div class="forma">
+			<form class="form-inline" action="/action_page.php">
+  				<div class="form-group">
+    				<label for="email">Email address:</label>
+   				<input type="email" class="form-control" id="email">
+  				</div>
+
+  				<div class="form-group">
+    				<label for="pwd">Password:</label>
+    				<input type="password" class="form-control" id="pwd">
+  				</div>
+
+  				<div class="checkbox">
+
+    				<label><input type="checkbox"> Remember me</label>
+  				</div>
+  					<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+	<!-- 45187230+0007David@users.noreply.github.com -->
 	</header>
 	<h1>Cuerpo de la página</h1>
 	<h2>Contenido de la página</h2>
